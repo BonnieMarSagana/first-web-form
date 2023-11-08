@@ -1,0 +1,59 @@
+body, #firstName, #lastName, #email, #tel, #birthday {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(242, 255, 233);
+}
+h1 {
+    background-color: rgb(250, 112, 112);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.formStyle {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 8px 0px;
+}
+
+.formStyle > * {
+    flex: 150px;
+}
+
+form#survey {
+    background-color:rgb(85, 124, 85);
+    flex: 1 1 300px;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+legend {
+    background-color: rgb(166, 207, 152);
+    color: #ececec;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+div#button {
+    text-align: right;
+    width: 100%;
+}
+
+input[type='submit'], input[type='reset'] {
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+
+input:focus, select:focus, textarea:focus {
+    background-color: rgb(242, 255, 233);
+}
